@@ -1,0 +1,207 @@
+.seat {
+    width: 25px;
+    height: 20px;
+    margin: 1px;
+    font-size: 3px;
+
+}
+.seat_alpabet { /*seat 이랑 3차이 (alpabet이 더 작음*/
+    width: 25px;
+    height: 20px;
+    margin: 1px;
+    font-size: 5px;
+    text-align: center;
+    border: 1px solid #999;
+    pointer-events: none;
+}
+
+.seat:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.clicked {
+    background-color: #503396;
+    color: white;
+}
+.movie_screen {
+    margin: 80px auto 0;
+    width: 440px;
+    padding: 5px 0 5px;
+    background-color: #999;
+    /* background-color: rgb(143, 23, 23); */
+    border-radius: 5px 5px 15px 15px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.seat-wrapper {
+    width: 1100px;
+    height: 440px;
+    margin: 0 auto;
+    /* background-color: yellow; */
+    /* border: 1px solid blue; */
+}
+.seatalpabet {
+    width: 27px;
+    /* height: 154px; */
+    float: left;
+    margin-right: 10px;
+    border: 3px solid #fff;
+}
+
+.seat_left {
+    width: 54px;    /* 41 * 2  -> 27* 2*/
+    float: left;
+    margin-right: 10px;
+    border: 2px solid #333333;
+    border-radius: 3px;
+}
+.seat_left input, .seat_center input, .seat_right input {
+    border: 1px solid #999;
+    border-radius: 1px;
+    text-align: center;
+}
+.seat_center {
+    width: 378px;   /*41 * 14 -> 27* 14*/
+    float: left;
+    margin-right: 10px;
+    border: 2px solid #333333;
+    border-radius: 3px;
+}
+.seat_right {
+    width: 81px;   /* 41*3 -> 27* 3*/
+    float: left;
+    border: 2px solid #333333;
+    border-radius: 3px;
+}
+
+.seat-wrapper .left_sec {
+    width: 685px;
+    margin-right: 10px;
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+    border-radius: 10px;
+    border: 2px solid #333333;
+    box-sizing: content-box;
+}
+.seat-wrapper .right_sec {
+    width: 400px;
+    height: 100%;
+    background-color: #333333;
+    float: left;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.seat-min {
+    width: 625px;
+    padding: 30px;
+    margin: 0 auto;
+    /* background-color: yellowgreen; */
+    float: left;
+}
+.seat_choise {
+    color: #503396;
+    font-size: 1.9em;
+    font-weight: 500;
+    letter-spacing:-1px;
+    z-index: 10;
+    margin: 0 auto;
+    width: 1100px;
+}
+.hr {
+    width: 650px;
+    left: 126px;
+    border-bottom: 2px solid #333333;
+    position: relative;
+    padding: 10px;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+}
+
+#right_movie_name {
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+    padding: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid #434343;
+    /* border-bottom: 1px solid red; */
+    margin-bottom: 5px;
+}
+.movie_info {
+    position: relative;
+    border-bottom: 2px solid #434343;
+    /* border-bottom: 1px solid red; */
+    padding: 10px 10px 30px;
+}
+.movie_info div {
+    color: #c4c4c4;
+    margin-top: 5px;
+}
+.right_movie_post {
+    width: 90px;
+    height: 120px;
+    background: url("../img/0001.jpg") no-repeat center /90px 120px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    border-radius: 3px;
+
+}
+.movie_info {
+    margin-bottom: 10px;
+}
+.right_sec h3 {
+    font-size: 15px;
+    color: rgb(223, 223, 223);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#selected_seat {
+    width: 360px;
+    height: 80px;
+    background-color: rgb(168, 168, 168);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 17px;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+}
+#selected_seat .s_seat {
+    float: left;
+    margin: 5px;
+    background-color: #503d7e;
+    text-align: center;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 2;
+    border-radius: 3px;
+}
+.right_fast {
+    width: 50%;
+    height: 50px;
+    float: left;
+    background-color: #53565b;
+    border-radius: 0 0 0 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.right_next {
+    width: 50%;
+    height: 50px;
+    float: left;
+    background-color: #3292b1;
+    border-radius: 0 0 10px 0px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}

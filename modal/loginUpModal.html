@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="header clearfix">
+                    <h1>
+                        <a href="#">
+                            <em><img src="img/logo.png" alt="MEGABOX"></em>
+                            <strong><img src="img/logo-sub.png" alt="LIFE THEATER"></strong>
+                        </a>    
+                    </h1>
+                    <nav id="mNav">
+                        <h2 class="ir_so">메가박스 전체메뉴</h2>
+                        <a href="#" class="ham"><span></span></a>
+                    </nav>
+                    <nav class="nav">
+                        <li class="main-menu">
+                            <a href="#">영화</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">전체영화</a></li>
+                                <li><a href="#">큐레이션</a></li>
+                                <li><a href="#">무비포스트</a></li>
+                            </ul>
+                        </li>
+                        <!-- main-menu2 -->
+                        <li class="main-menu">
+                            <a href="#">예매</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">빠른예매</a></li>
+                                <li><a href="#">상영시간표</a></li>
+                                <li><a href="#">더 부티크 프라이빗 예매</a></li>
+                            </ul>
+                        </li>
+                        <!-- main-menu3 -->
+                        <li class="main-menu lmovie-menu">
+                            <a href="#">극장</a>
+                            <ul class="sub-menu sub-menu-rw">
+                                <li><a href="#">전체극장</a></li>
+                                <li><a href="#">특별관</a></li>
+                            </ul>
+                        </li>
+                        <!-- main-menu4 -->
+                        <li class="main-menu rmovie-menu">
+                            <a href="#">이벤트</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">진행중 이벤트</a></li>
+                                <li><a href="#">지난 이벤트</a></li>
+                                <li><a href="#">당첨자발표</a></li>
+                            </ul>
+                        </li>
+                        <!-- main-menu5 -->
+                        <li class="main-menu rmovie-menu" >
+                            <a href="#">스토어</a>
+                        </li>
+                        <!-- main-menu6 -->
+                        <li class="main-menu rmovie-menu ">
+                            <a href="#">혜택</a>
+                            <ul class="sub-menu sub-menu-gx">
+                                <li><a href="#">메가박스 멤버십</a></li>
+                                <li><a href="#">제휴/할인</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-menu rmovie-menu ">
+                            <a class="modal-notice" href="#none">open</a>
+                        </li>
+                    </nav>    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal">
+        <div class="modal-content">
+            <a class="btn-close" href="#">X</a>
+            <h2>로그인폼</h2>
+            <p>로그인</p>
+            <a class="btn-guide" href="#">open</a>
+        </div>
+    </div>
+
+    <script>
+        $('.modal-notice').click(function() {
+            $('.modal').fadeIn(1000)
+        })
+        $('.btn-close').click(function() {
+            $('.modal').fadeOut(1000)
+        })
+    </script>
+</body>
+</html>
